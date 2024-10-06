@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cody Beggs - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">CB</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="stars">
+                <div class="shooting-star"></div>
+                <div class="shooting-star"></div>
+                <div class="shooting-star"></div>
+            </div>
+            <div class="container">
+                <h1>Cody Beggs</h1>
+                <h2 class="typewriter">I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p class="hero-description">Turning ideas into elegant, functional web solutions</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/imgs/cody.jpeg" alt="Cody Beggs">
+                </div>
+                <div class="about-text">
+                    <p class="professional-summary">Innovative Full Stack Developer with a passion for creating efficient, user-friendly web applications.</p>
+                    <div class="about-columns">
+                        <div class="column">
+                            <h3>My Journey</h3>
+                            <p>I started my coding journey in college, where I discovered my passion for problem-solving through programming. Since then, I've worked on diverse projects, from e-commerce platforms to data visualization tools, always striving to learn and implement best practices.</p>
+                        </div>
+                        <div class="column">
+                            <h3>What I Bring</h3>
+                            <ul class="key-skills">
+                                <li>Strong problem-solving skills</li>
+                                <li>Expertise in full-stack development</li>
+                                <li>Experience with Agile methodologies</li>
+                                <li>Passion for clean, efficient code</li>
+                                <li>Ability to quickly adapt to new technologies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <blockquote class="personal-quote">
+                        "I believe that great software is not just about code—it's about creating intuitive experiences that solve real-world problems."
+                    </blockquote>
+                    <div class="about-cta">
+                        <a href="#" class="btn btn-primary btn-resume">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="space-background">
+            <h2>My Projects</h2>
+            <div class="project-carousel">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/imgs/project1.png" alt="Amazon Warehouse Management App">
+                        <div class="project-overlay">
+                            <div class="project-summary">
+                                <h3>Amazon Warehouse Management App</h3>
+                                <p>A full-stack warehouse management solution designed for distribution networks.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Warehouse Management App</h3>
+                        <p>Developed a scalable web app that tracks real time warehouse safety weather conditions.</p>
+                        <div class="project-links">
+                            <a href="https://amazon-dashboard-indol.vercel.app" class="btn btn-small btn-primary">Live Demo</a>
+                            <a href="https://github.com/BayDev20/Project-dashboard" class="btn btn-small btn-outline">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                        <div class="project-stack">
+                            <button class="btn btn-small btn-stack">Next.jss=</button>
+                            <button class="btn btn-small btn-stack">Recharts</button>
+                            <button class="btn btn-small btn-stack">Tailwind CSS</button>
+                            <button class="btn btn-small btn-stack">Weather API</button>
+                            <button class="btn btn-small btn-stack">Google Maps API</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/imgs/project3.png" alt="Inventory Management App">
+                        <div class="project-overlay">
+                            <div class="project-summary">
+                                <h3>Inventory Management App</h3>
+                                <p>A full stack application for managing inventory and supply chain.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Inventory Management App</h3>
+                        <p>A full stack inventory managemnt application with user authentication and persistent data.</p>
+                        <div class="project-links">
+                            <a href="https://medi-track-virid.vercel.app" class="btn btn-small btn-primary">Live Demo</a>
+                            <a href="https://github.com/BayDev20/MediTrack" class="btn btn-small btn-outline">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                        <div class="project-stack">
+                            <button class="btn btn-small btn-stack">React</button>
+                            <button class="btn btn-small btn-stack">Next.js</button>
+                            <button class="btn btn-small btn-stack">Firebase</button>
+                            <button class="btn btn-small btn-stack">Tailwind CSS</button>
+                            <button class="btn btn-small btn-stack">Vercel</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/imgs/project4.png" alt="AI Recipe Generator">
+                        <div class="project-overlay">
+                            <div class="project-summary">
+                                <h3>AI Recipe Generator</h3>
+                                <p>A full stack application that generates recipes based on user input.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Recipe Generator</h3>
+                        <p>Create, save, and generate recipes with the power of AI. Find the perfect recipe today.</p>
+                        <div class="project-links">
+                            <a href="https://recipe-app-v.vercel.app" class="btn btn-small btn-primary">Live Demo</a>
+                            <a href="https://github.com/BayDev20/RecipeAppV" class="btn btn-small btn-outline">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                        <div class="project-stack">
+                            <button class="btn btn-small btn-stack">TypeScript</button>
+                            <button class="btn btn-small btn-stack">FireStore</button>
+                            <button class="btn btn-small btn-stack">Shadcn UI</button>
+                            <button class="btn btn-small btn-stack">OpenAI API</button>
+                            <button class="btn btn-small btn-stack">Vercel</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/imgs/project2.png" alt="Interactive 3D Cube App">
+                        <div class="project-overlay">
+                            <div class="project-summary">
+                                <h3>Interactive 3D Cube App</h3>
+                                <p>An interactive WebGL app rendering a 3D model of a cube.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive 3D Cube App</h3>
+                        <p>A WebGL application allowing users to interact with and edit a 3D model of a cube in real time.</p>
+                        <div class="project-links">
+                            <a href="https://baydev20.github.io/RotatingCube/" class="btn btn-small btn-primary">Live Demo</a>
+                            <a href="https://github.com/BayDev20/RotatingCube" class="btn btn-small btn-outline">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                        <div class="project-stack">
+                            <button class="btn btn-small btn-stack">JavaScript</button>
+                            <button class="btn btn-small btn-stack">WebGL</button>
+                            <button class="btn btn-small btn-stack">Three.js</button>
+                            <button class="btn btn-small btn-stack">GLSL</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/imgs/project5.png" alt="Fitness Tracking App">
+                        <div class="project-overlay">
+                            <div class="project-summary">
+                                <h3>Interactive Ocean Scene</h3>
+                                <p>A 3D ocean scene with realistic water movement and lighting effects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Ocean Scene</h3>
+                        <p>A WebGL application that renders an interactive ocean scene with various lighting effects.</p>
+                        <div class="project-links">
+                            <a href="https://baydev20.github.io/OceanViewer/" class="btn btn-small btn-primary">Live Demo</a>
+                            <a href="https://github.com/BayDev20/OceanViewer" class="btn btn-small btn-outline">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                        <div class="project-stack">
+                            <button class="btn btn-small btn-stack">JavaScript</button>
+                            <button class="btn btn-small btn-stack">WebGL</button>
+                            <button class="btn btn-small btn-stack">Three.js</button>
+                            <button class="btn btn-small btn-stack">GLSL</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <div class="skill-categories">
+                <div class="skill-category">
+                    <h4>Web Development</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fab fa-typescript"></i> TypeScript</span>
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-tag"><i class="fab fa-vuejs"></i> Vue.js</span>
+                        <span class="skill-tag"><i class="fab fa-angular"></i> Angular</span>
+                        <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> GraphQL</span>
+                        <span class="skill-tag"><i class="fas fa-cube"></i> WebGL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Mobile Development</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-android"></i> Android</span>
+                        <span class="skill-tag"><i class="fab fa-android"></i> Kotlin</span>
+                        <span class="skill-tag"><i class="fab fa-apple"></i> Swift</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React Native</span>
+                        <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Flutter</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> C++</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> Rust</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> Go</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>DevOps & Cloud</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="skill-tag"><i class="fab fa-aws"></i> AWS</span>
+                        <span class="skill-tag"><i class="fab fa-google"></i> Google Cloud</span>
+                        <span class="skill-tag"><i class="fas fa-sync-alt"></i> CI/CD</span>
+                        <span class="skill-tag"><i class="fas fa-network-wired"></i> Microservices</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Data Science & AI</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-brain"></i> Machine Learning</span>
+                        <span class="skill-tag"><i class="fas fa-robot"></i> TensorFlow</span>
+                        <span class="skill-tag"><i class="fas fa-chart-bar"></i> Data Analysis</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+                        <span class="skill-tag"><i class="fas fa-table"></i> Pandas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2024 Cody Beggs. All rights reserved.</p>
+                    <p>Full Stack Developer based in San Francisco, CA</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/BayDev20" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bayareadev/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    <a href="mailto:cbeggs.pub@icloud.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
